@@ -1,0 +1,22 @@
+
+Strongtalk{ 2020 };
+
+INDEX
+
+
+QUICK START
+
+    make ext
+    make strongtalk-exe
+    make strongtalk-exe-run
+
+
+SEE ALSO
+
+
+
+CONVENTIONS
+
+    text in ALL-CAPS signifies
+
+        a) a category

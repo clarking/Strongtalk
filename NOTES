@@ -1,0 +1,19 @@
+
+
+This fork is a personal project, it's intended to build only in linux,
+and it's not intended for everyday use.
+
+
+
+ Arch (nov 22) with GCC 12.2.0.
+
+Changes done for this branch so far:
+
+- Modified Cmake build to be simpler and only build natively on linux
+- Added some castings and minor modifications for GCC 12.2
+- Formated all source files in Clion
+- Added libreadline as a build requirement in CmakeFile
+- Removed Nasm from build as the only dependency was detected unused by CLion
+- Reordered folders to resemble the original folder structure and simplify build
+- Disabled test suite for now as the cmake file was modified
+- Commented many SPDLOG messages as newer version dropped ptr support

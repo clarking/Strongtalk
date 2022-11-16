@@ -1,0 +1,31 @@
+#! /usr/bin/env bash
+
+# bash ------------------------------------------------------------------------
+
+set -o errexit -o nounset
+${BASH_DEBUG:+trap '(read -p "[${BASH_SOURCE}:${LINENO}] [${BASH_COMMAND}] ")' DEBUG}
+
+
+# location --------------------------------------------------------------------
+
+readonly _PATH=$("${BASH_SOURCE[ 0 ]}")
+readonly _READLINK_F=$(readlink -f "${BASH_SOURCE[ 0 ]}")
+readonly _REALPATH=$(realpath "${BASH_SOURCE[ 0 ]}")
+readonly _BASENAME=$(basename "${_REALPATH}")
+readonly _DIRNAME=$(dirname "${_REALPATH}")
+readonly _ROOT=$(dirname "${_DIRNAME}")
+readonly _PREFIX=$(dirname "${_ROOT}")
+
+
+# execute ---------------------------------------------------------------------
+
+if [[ "${_PATH_BASENAME}" = "venv-python-module" ]]; then
+    echo "note: ${_PATH_BASENAME} is not meant to be invoked directly."
+    exit 111
+fi
+
+
+# execute ---------------------------------------------------------------------
+
+exec ${_DIRNAME}/venv-python -m ${_BASENAME} "${@}"
+
