@@ -16,9 +16,8 @@ The codebase for this codebase was derived from various sources, including the o
 
  ## Caveats
 
-The Strongtalk project only started up again recently after having been inactive since 1996, and all VM development stopped at that point.   It is now starting up again, since Strongtalk is still by far the fastest Smalltalk implementation in existence, and is fully open-source unlike any other fast Smalltalk implementations, so there is much of value here.
-
-While the C++ parts of the system now build under VisualStudio 2005 (and the Express version), the assembler files still require Borland Turbo Assembler.  To enable compilation without purchasing the assembler, we have included the .obj files in COFF format from the assembler, for convenience (in bin/asm_objs.
+The Strongtalk project only started up again recently after having been inactive since 1996, and all VM development stopped at that point.   
+It is now starting up again, since Strongtalk is still by far the fastest Smalltalk implementation in existence, and is fully open-source unlike any other fast Smalltalk implementations, so there is much of value here.
 
 ## Requirements
 
