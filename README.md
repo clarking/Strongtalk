@@ -5,10 +5,14 @@ Smalltalk.. with a need for speed
 
 ## Introduction
 
-This is a personal project that qualifies as an experiment.  this codebase was derived from various sources, including the official page and files but also the following projects:
+This is a personal project that qualifies as an experiment/exploration.
+It currently builds on Linux x64 with GCC 12, but that's about all.
 
+The codebase for this codebase was derived from various sources, including the official page and files but also the following projects:
 
+* http://www.strongtalk.org/
 * https://github.com/jiridanek/Strongtalk
+* https://github.com/gjvc/strongtalk-2020
 
  ## Caveats
 
@@ -78,7 +82,6 @@ strongtalk  Files needed in that directory for running an application are:
 - source folder containing the source code for the development environment
 
 
+## Smalltalk is dangerous
 
-
-
-
+It is a drug. My advice to you would be don't try it; it could ruin your life. Once you take the time to learn it (to REALLY learn it) you will see that there is nothing out there (yet) to touch it. Of course, like all drugs, how dangerous it is depends on your character. It may be that once you've got to this stage you'll find it difficult (if not impossible) to "go back" to other languages and, if you are forced to, you might become an embittered character constantly muttering ascerbic comments under you breath. Who knows, you may even have to quit the software industry altogether because nothing else lives up to your new expectations.   -- AndyBower 
